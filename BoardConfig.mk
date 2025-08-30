@@ -9,6 +9,7 @@ DEVICE_PATH := device/sony/poplar
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
+BOARD_RAMDISK_COMPRESSION := lzma
 
 # Architecture
 TARGET_ARCH := arm64
